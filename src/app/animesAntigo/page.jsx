@@ -38,7 +38,7 @@ export default function AnimesAntigoPage() {
       <ul>
         {animes.map((p) => (
           <li key={p.id}>
-            {p.nome} — R$ {p.genero}
+            {p.nome} — {p.genero}
           </li>
         ))}
       </ul>

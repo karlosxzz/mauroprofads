@@ -10,9 +10,9 @@ export default function Home() {
       <Header /> {/* ✅ adiciona o cabeçalho fixo */}
       <Container>
         <Content>
-          <Title>Página dedicada aos otakus! 🎌</Title>
+          <Title>Página dedicada aos melhores filmes! 🎌</Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Explore, descubra e compartilhe seus filmes favoritos.
           </Subtitle>
 
           {/* <ButtonWrapper>
@@ -32,7 +32,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #5a76a4, #240045);
+  background: linear-gradient(135deg, #3023a0ff, #090cbeff);
   color: white;
   text-align: center;
   padding-top: 4rem; /* 🔹 espaço para o header fixo */

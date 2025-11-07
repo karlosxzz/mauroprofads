@@ -13,11 +13,11 @@ export default function Header() {
     <>
       <HeaderContainer>
         <HeaderContent>
-          <Logo href="/">ADS Animes</Logo>
+          <Logo href="/">ADS filmes</Logo>
 
           <Nav>
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/animes">Animes</NavLink>
+            <NavLink href="/animes">filmes</NavLink>
             <NavLink href="/animes/novo">Cadastrar</NavLink>
 
             <LoginButton onClick={() => setShowLogin(true)}>
